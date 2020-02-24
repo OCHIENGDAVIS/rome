@@ -44,10 +44,12 @@ nav ul li a:hover{
 .nav-brand h1{
     font-size: 3rem;
     line-height: 1rem;
+    color: rgb(212, 204, 204);
 }
 .nav-brand p{
     font-size: .8rem;
     margin: 0 10px;
+
    
 }
 .nav-brand h1 > span{
@@ -56,6 +58,7 @@ nav ul li a:hover{
 }
 #tag-line{
     padding-bottom: 0;
+    color: rgb(212, 204, 204);
 }
 .nav-form{
   
