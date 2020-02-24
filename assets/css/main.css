@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Verdana, Arial, sans-serif;
+    background: #f0eeec;
+}
+ul li {
+    list-style-type: none;
+}
+.container{
+    width: 85%;
+    margin: auto;
+
+}
+#header{
+    background: rgba(17, 17, 17, 0.637);
+    color: white;
+    padding-bottom: 40px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin: 10px 15px;
+    padding: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: .9rem;
+}
+nav ul li a:hover{
+    color: rgba(233, 188, 41, 0.377);
+}
+.nav-brand{
+    display: flex;
+    padding: 50px 10px;
+    align-items: baseline;
+    
+}
+.nav-brand h1{
+    font-size: 3rem;
+    line-height: 1rem;
+}
+.nav-brand p{
+    font-size: .8rem;
+    margin: 0 10px;
+   
+}
+.nav-brand h1 > span{
+    color: rgba(233, 188, 41, 0.377);
+    font-weight: 100;
+}
+#tag-line{
+    padding-bottom: 0;
+}
+.nav-form{
+  
+    border: 1px solid rgba(233, 188, 41, 0.377);;
+    margin-left: auto;
+}
+.container-main{
+    border: 1px solid black;
+    margin-top: -50px;
+    
+    background: #fff;
+}
+.corousel-div{
+    display: flex;
+    height: 300px ;
+}
+.corousel-div .corousel{
+    width: 70%;
+}
+.corousel-div .corousel img{
+    width: 100%;
+    height: 100%;
+}
+.corousel-div .hero{
+    width: 30%;
+    
+}
+.corousel-div .hero img{
+    width: 100%;
+    height: 100%;
+}
+
