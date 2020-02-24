@@ -87,4 +87,56 @@ nav ul li a:hover{
     width: 100%;
     height: 100%;
 }
+.featured-div{
+    display: flex;
+    box-sizing: border-box;
+}
+.featured-div .featured-main{
+    width: 70%;
+    height: 200px;
+    margin: 0 5px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.featured-div .featured-aside{
+    width: 30%;
+    width: 200ppx;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.tiles{
+    display: flex;
+}
+.tiles-main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.tiles-aside{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.tiles img{
+    width: 30%;
+    height: 30%;
+}
+.container-footer{
+    padding: 20px;
+    text-align: center;
+}
+.container-footer div{
+    margin-bottom: 20px;
+}
+.container-footer ul{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.container-footer ul li{
+    padding: 10px 10px;
+}
+.container-footer ul li a{
+    color: black;
+}
 
