@@ -59,14 +59,24 @@ nav ul li a:hover{
 }
 .nav-form{
   
-    border: 1px solid rgba(233, 188, 41, 0.377);;
     margin-left: auto;
 }
-.container-main{
-    border: 1px solid black;
-    margin-top: -50px;
+.nav-form input[type='text']{
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 0;
     
-    background: #fff;
+}
+.nav-form form button{
+    margin-left: 0;
+    background: rgba(233, 188, 41, 0.377);
+    color: white;
+}
+.container-main{
+    margin-top: -50px;
+    margin-bottom: 40px;
+    background: #fffefe1a;
+    box-shadow: 0px 10px rgba(226, 216, 182, 0.377);
 }
 .corousel-div{
     display: flex;
@@ -95,13 +105,11 @@ nav ul li a:hover{
     width: 70%;
     height: 200px;
     margin: 0 5px;
-    border: 1px solid black;
     box-sizing: border-box;
 }
 .featured-div .featured-aside{
     width: 30%;
     width: 200ppx;
-    border: 1px solid black;
     box-sizing: border-box;
 }
 .tiles{
@@ -138,5 +146,6 @@ nav ul li a:hover{
 }
 .container-footer ul li a{
     color: black;
+    text-decoration: none;
 }
 
