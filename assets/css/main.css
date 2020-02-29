@@ -4,7 +4,7 @@
 }
 body{
     font-family: Verdana, Arial, sans-serif;
-    background: #f0eeec;
+    background: #D4D4D4;
 }
 ul li {
     list-style-type: none;
@@ -79,7 +79,7 @@ nav ul li a:hover{
     margin-top: -50px;
     margin-bottom: 40px;
     background: #fffefe1a;
-    box-shadow: 0px 10px rgba(226, 216, 182, 0.377);
+    box-shadow: 0 10px 12px -12px  #777;
 }
 .corousel-div{
     display: flex;
